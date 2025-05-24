@@ -7,3 +7,4 @@
 |-----|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1   | <b>AddSum2</b>  <br> | [View](https://github.com/Decoy-Devil/DailyWorks/blob/main/src/add%20sum%202.py)   
 | 2   | <b>Score_of_a_String</b>  <br> | [View](https://github.com/Decoy-Devil/DailyWorks/blob/main/src/Score_of_a_String.py)
+| 3   | <b>Palindrome_Number_Real</b>  <br> | [View](https://github.com/Decoy-Devil/DailyWorks/blob/main/src/Palindrome_Number_Real.py)
