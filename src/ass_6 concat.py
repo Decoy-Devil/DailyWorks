@@ -1,0 +1,5 @@
+x = input("what is your name")
+y = input("what is your quest")
+z = input("what is your fav color?")
+print(x+y+z)
+print("So your name is "+x+ ", your quest is "+y+ ", and your fav color is "+z)
