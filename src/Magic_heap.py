@@ -1,6 +1,6 @@
 def sift_down(A, size, i):
     """
-    Restore min-heap property starting at index i.
+    Restore min-heap property starting at index i..
     Time: O(log size)
     Space: O(1)
     """
