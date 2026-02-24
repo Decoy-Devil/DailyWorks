@@ -30,3 +30,5 @@ def search_range(nums, target):
 if __name__ == "__main__":
     print(search_range([5,7,7,8,8,8], 8))  # [3,4]
     print(search_range([5,7,7,8,8,10], 6))  # [-1,-1]
+
+    
