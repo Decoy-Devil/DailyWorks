@@ -25,5 +25,4 @@ def Ffahren(y):
     return (18 * y + 320) / 10
 
 
-print("The Fahrenheit equivalent of "+ str(y)
-      +" degrees Celsius is " + str(Ffahren(y)))
+print("The Fahrenheit equivalent of "+ str(y) +" degrees Celsius is " + str(Ffahren(y)))
