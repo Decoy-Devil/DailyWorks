@@ -26,6 +26,7 @@ class Codec:
             i += length  # ✅ move i to start of next encoded chunk
         return res
 
+
     
 #     def decode(self, s):
 #     res , i = [] , 0
