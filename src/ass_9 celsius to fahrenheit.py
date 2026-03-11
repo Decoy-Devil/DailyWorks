@@ -5,8 +5,6 @@
 # print(y)
 
 """
-
-
 F = 0
 def Ffahren(y):
     F = float(1.8 * y + 32)
