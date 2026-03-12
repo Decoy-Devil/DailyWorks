@@ -12,3 +12,4 @@ d = 10//3
 print(d)
 e = 17%15   # 2 result
 print(e)
+
