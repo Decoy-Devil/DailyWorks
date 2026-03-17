@@ -19,7 +19,6 @@ You must write an algorithm that runs in O(n) time."""
 nums = [100, 4, 200, 1, 3, 2,7,6,4,3,7,8,9,0,1]
 #
 # we are checking for longest snake found
-
 # 2 approach : look for head continuity
 count, cur_order = 0 , 0
 
