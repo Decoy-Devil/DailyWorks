@@ -20,7 +20,6 @@ class Solution(object):
                     break     
         return True
 
-
 # Below didnt work on Test case 1000021 as continued to run Code part 2 : 
 class Solution(object):
     def isPalindrome(self, x):
