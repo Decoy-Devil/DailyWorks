@@ -1,6 +1,0 @@
-For HW4, I used ChatGPT as a study assistant to understand graph problem-solving step by step. It helped me understand how to represent connected vertices using an adjacency list, why we use a queue (FIFO) in BFS to explore nodes level-by-level, and how the indegree + queue method produces a valid course ordering (and detects cycles by returning an empty list when not all courses can be processed).
-
-My workflow was to first ask for pseudocode to understand the logic at a high level, then translate that pseudocode into Python code with line-by-line comments so I could clearly connect each line to what the algorithm is doing. I also used ChatGPT to debug mistakes like IndexError (list index out of range) by checking whether course labels stayed within 0..n-1 and validating inputs.
-
-AI Tool Used / Citation:
-ChatGPT (OpenAI) — used for concept clarification (graphs, adjacency lists, BFS queue behavior, indegree-based topological ordering), pseudocode-to-code translation, and debugging support for HW4.
