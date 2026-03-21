@@ -15,7 +15,6 @@ class Solution(object):
             charleft = s[left]  # fetching charac value at the index string
             charright = s[right]  # fetching charac value at the iaandex string
             if (charleft != charright):
-
                 
                     print("not palindrome")
                     return False
