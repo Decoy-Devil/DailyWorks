@@ -26,6 +26,7 @@ for i in range(len(s)):  # range(len(list))
     elif s[i] == "}": # testing no parentheses to if/else if
         mylist.append(i)
         c -= 1
+    
     else:
         print("incorrect input")
         print(mylist)
