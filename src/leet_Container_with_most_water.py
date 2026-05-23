@@ -16,7 +16,8 @@ def maxArea(heights):
                 r -= 1
         return max_area
 
-height = [1, 8, 6, 2, 5, 4, 8, 3, 7]
+height = [1, 4, 6, 7, 8, 4, 4, 3, 2]
+# height = [1, 8, 6, 2, 5, 4, 8, 3, 7]
 print(maxArea(height))
 
 
