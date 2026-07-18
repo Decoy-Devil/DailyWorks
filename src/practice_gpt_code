@@ -1,0 +1,25 @@
+nums = [2, 7, 11, 15] # ~ list of values here (array in py)
+target = 9 #(a target which we are suppose to achieve or to use)
+
+seen = {} # seen so far values / seen is our dictionary(values, keys)
+for i in range(len(nums)): # ~ we have a 4 value nums list
+    need = target - nums[i] # need = how much we have left if we reduce the current i from target
+
+    if need in seen: # if our reduced value is in seen
+        print([seen[need], i])
+        break
+
+    seen[nums[i]] = i
+# for runs from 0 to 3
+# i= 0, t = 9 , n = 9-2 = 7, nums[i]= 2 , false, seen = {2key, 0value}
+# i= 1, t= 9 , n= 9-7 = 2, nums[i] = 7, true, print(0,1)= "2,7"
+
+
+
+
+
+
+# what the purpose of seen
+# what does need = target - nums[i] means ? ~ difference in target - iterator
+# Walk me through each iteration (i = 0, 1, 2...) until it stops.
+# what is printed and why ?
